@@ -26,5 +26,11 @@ namespace TestApp.Controllers
 
             return View();
         }
+        public ActionResult Example()
+        {
+            ViewBag.Message = "My example page.";
+
+            return View();
+        }
     }
 }
