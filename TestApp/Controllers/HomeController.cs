@@ -32,5 +32,11 @@ namespace TestApp.Controllers
 
             return View();
         }
+        public ActionResult Addpage()
+        {
+            ViewBag.Message = "Addpage.";
+
+            return View();
+        }
     }
 }
